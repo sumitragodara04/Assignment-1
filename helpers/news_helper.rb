@@ -50,7 +50,7 @@ $news_site_cookie_accept_button = "//button[@id='didomi-notice-agree-button']"
 		for i in 1..no_of_artical 
 			header = return_element($news_article_section_header.sub('?',i.to_s)).text
 			puts "article Header in Spanish #{header}"
-			api_key = 'AIzaSyAuildmLgzp8TwQExHlyHiOD7P-x_SljQQ'
+			api_key = 'API KEY'
 			url = "https://translation.googleapis.com/language/translate/v2"
 			payload = {
 			  q: header,
